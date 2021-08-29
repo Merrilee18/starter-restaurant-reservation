@@ -1,4 +1,30 @@
+/* font-family: 'Libre Caslon Display', serif;
+   font-family: 'Montserrat', sans-serif; */
+
 .side-bar {
   background-color: #393a44;
   min-width: 200px;
+}
+
+li {
+  display: block;
+}
+
+span li:before {
+  /*Using a Bootstrap glyphicon as the bullet point*/
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+  font-size: 9px;
+  float: left;
+  margin-top: 4px;
+  margin-left: -17px;
+  color: #CCCCCC;
+}
+
+.montFont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.libreFont {
+  font-family: 'Libre Caslon Display', serif
 }
